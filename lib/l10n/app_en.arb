@@ -1,0 +1,204 @@
+{
+  "@@locale": "en",
+
+  "welcome": "Welcome",
+  "enterEmailToSignIn": "Enter your email to sign in",
+  "emailHint": "example@email.com",
+  "pleaseEnterEmail": "Please enter your email",
+  "invalidEmailFormat": "Invalid email format",
+  "sendOtp": "Send OTP",
+  "otpInfoMessage": "We will send a 6-digit OTP to your email.\n🎁 Get 15 days FREE trial!",
+  "demoMode": "Demo Mode",
+  "emailNotConfigured": "Email service not configured.\nYour OTP code is:",
+  "continueBtn": "Continue",
+
+  "accessWebApps": "Access your web apps anywhere",
+
+  "connectToWebsite": "Connect to Website",
+  "enterUrlToStart": "Enter any URL to get started",
+  "urlHint": "e.g. example.com",
+  "pleaseEnterUrl": "Please enter URL",
+  "connect": "Connect",
+  "recent": "Recent",
+  "subscriptionRequired": "Subscription Required",
+  "subscriptionExpiredMessage": "Your subscription has expired. Please subscribe to continue using the app.",
+  "cancel": "Cancel",
+  "viewPlans": "View Plans",
+  "signOut": "Sign Out",
+  "signOutConfirm": "Are you sure you want to sign out?",
+  "account": "Account: {email}",
+  "@account": {
+    "placeholders": {
+      "email": {"type": "String"}
+    }
+  },
+  "customize": "Customize",
+  "subscription": "Subscription",
+
+  "verifyOtp": "Verify OTP",
+  "enterOtpSentTo": "Enter the 6-digit code sent to",
+  "pleaseEnterAllDigits": "Please enter all 6 digits",
+  "invalidOtpCode": "Invalid OTP code",
+  "verify": "Verify",
+  "didntReceiveCode": "Didn't receive code?",
+  "resend": "Resend",
+  "resendCountdown": "{seconds}s",
+  "@resendCountdown": {
+    "placeholders": {
+      "seconds": {"type": "int"}
+    }
+  },
+  "newOtpSent": "New OTP sent to your email!",
+  "failedToResendOtp": "Failed to resend OTP",
+  "yourNewOtpCode": "Your new OTP code is:",
+  "ok": "OK",
+
+  "subscriptionPlans": "Subscription Plans",
+  "restore": "Restore",
+  "securePayment": "Secure Payment via App Store / Play Store",
+  "whatYouGet": "What You Get",
+  "compareFreeVsPremium": "Compare Free vs Premium features",
+  "freeTrial": "Free (Trial)",
+  "access1Url": "Access 1 URL",
+  "basicWebview": "Basic WebView",
+  "customBrandingDisabled": "Custom App Name / Logo / Color",
+  "multipleUrlsDisabled": "Multiple URLs",
+  "premiumSubscriber": "Premium (Subscriber)",
+  "unlimitedUrlAccess": "Unlimited URL Access",
+  "fullWebviewFeatures": "Full WebView Features",
+  "customAppName": "Custom App Name (Branding)",
+  "customAppLogo": "Custom App Logo",
+  "customAppColorTheme": "Custom App Color Theme",
+  "pickFromCameraGallery": "Pick from Camera / Gallery / Files",
+  "adFreeExperience": "Ad-Free Experience",
+  "earlyAccessNewFeatures": "Early Access to New Features",
+  "currentPlan": "Current Plan",
+  "active": "Active",
+  "expired": "Expired",
+  "freeTrialPlan": "Free Trial",
+  "monthly": "Monthly",
+  "threeMonths": "3 Months",
+  "sixMonths": "6 Months",
+  "yearly": "Yearly",
+  "bestValueBilled": "Best value! Billed annually.",
+  "greatSavingsBilled": "Great savings! Billed every 6 months.",
+  "saveMoreBilled": "Save more! Billed every 3 months.",
+  "billedMonthly": "Billed monthly. Cancel anytime.",
+  "loadingFromStore": "Loading from store...",
+  "monthlyPlan": "Monthly Plan",
+  "yearlyPlan": "Yearly Plan",
+  "oneMonth": "1 month",
+  "threeMonthsDuration": "3 months",
+  "sixMonthsDuration": "6 months",
+  "oneYear": "1 year",
+  "savePct": "Save {pct}",
+  "@savePct": {
+    "placeholders": {
+      "pct": {"type": "String"}
+    }
+  },
+  "paymentSecured": "Payment secured by Google Play / App Store",
+  "processing": "Processing...",
+  "success": "Success!",
+  "subscriptionNowActive": "Your {planType} subscription is now active!",
+  "@subscriptionNowActive": {
+    "placeholders": {
+      "planType": {"type": "String"}
+    }
+  },
+  "purchasesRestored": "Purchases restored",
+  "subscribe": "Subscribe {price}",
+  "@subscribe": {
+    "placeholders": {
+      "price": {"type": "String"}
+    }
+  },
+  "daysRemaining": "{days} days remaining",
+  "@daysRemaining": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "subscriptionExpired": "Subscription expired",
+
+  "customizeApp": "Customize App",
+  "appName": "App Name",
+  "enterAppName": "Enter app name",
+  "appColor": "App Color",
+  "appLogo": "App Logo",
+  "saveChanges": "Save Changes",
+  "resetToDefault": "Reset to Default",
+  "brandingSaved": "Branding saved! Restart app to see full changes.",
+  "resetToDefaultBranding": "Reset to default branding.",
+  "chooseLogoImage": "Choose Logo Image",
+  "takePhoto": "Take Photo",
+  "useCamera": "Use camera to take a new photo",
+  "photoGallery": "Photo Gallery",
+  "chooseFromLibrary": "Choose from photo library",
+  "browseFiles": "Browse Files",
+  "chooseFromFiles": "Choose from device files",
+  "chooseLogo": "Choose Logo",
+  "removeCustomLogo": "Remove Custom Logo",
+  "preview": "Preview",
+
+  "noInternet": "No internet connection.\nPlease check your network.",
+  "failedToLoadPage": "Failed to load page.",
+  "tryAgain": "Try Again",
+  "chooseDifferentUrl": "Choose Different URL",
+  "exit": "Exit",
+  "exitConfirm": "Do you want to go back to URL selection?",
+  "confirm": "Confirm",
+  "refresh": "Refresh",
+
+  "language": "Language",
+  "english": "English",
+  "thai": "ไทย",
+  "changeLanguage": "Change Language",
+  "failedToRegister": "Failed to register",
+  "membershipExpired": "Membership Expired",
+  "membershipExpiredMessage": "Your membership has expired.\nPlease renew your package to continue using the app.",
+  "renewPackage": "Renew Package",
+  "testCode": "Test Code",
+  "enterTestCode": "Enter test code",
+  "activateCode": "Activate",
+  "invalidTestCode": "Invalid or expired test code",
+  "testCodeActivated": "Test code activated! Your subscription is now active.",
+  "haveTestCode": "Have a test code?",
+  "activating": "Activating...",
+  "verificationFailed": "Purchase verification failed. Please try again.",
+  "tooManyOtpRequests": "Too many OTP requests. Please wait a few minutes.",
+  "emailAlreadyRegistered": "This email is already registered. OTP sent for login.",
+
+  "proPlans": "Pro Plans",
+  "proMonthly": "Pro Monthly",
+  "proYearly": "Pro Yearly",
+  "proDescription": "Use on up to {count} devices with 1 account",
+  "@proDescription": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "proBadge": "PRO",
+  "upToDevices": "Up to {count} devices",
+  "@upToDevices": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "standardPlan": "Standard",
+  "oneDevice": "1 device",
+  "deviceLimitReached": "Device limit reached",
+  "deviceLimitMessage": "Your plan allows maximum {count} device(s). Please upgrade to Pro to use up to 5 devices.",
+  "@deviceLimitMessage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "upgradeToPro": "Upgrade to Pro",
+  "proMonthlyBilled": "Pro plan billed monthly. Up to 5 devices.",
+  "proYearlyBilled": "Best Pro value! Billed annually. Up to 5 devices.",
+
+  "deleteHistory": "Delete History",
+  "deleteHistoryConfirm": "Are you sure you want to delete this URL from history?",
+  "delete": "Delete"
+}

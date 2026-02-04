@@ -1,0 +1,44 @@
+name: odoo_app
+description: Web Go Application - Access your web apps from anywhere
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  webview_flutter: ^4.4.2
+  shared_preferences: ^2.2.2
+  flutter_spinkit: ^5.2.0
+  connectivity_plus: ^5.0.2
+  http: ^1.1.0
+  in_app_purchase: ^3.1.13
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  file_picker: ^8.0.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_odoo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo_odoo.png"
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/logo_odoo.png
