@@ -9,14 +9,14 @@ class IAPService {
   static StreamSubscription<List<PurchaseDetails>>? _subscription;
   
   // Product IDs - ต้องตรงกับที่ตั้งใน Play Store / App Store
-  static const String monthlyProductId = 'webgo_monthly_subscription';
-  static const String quarterlyProductId = 'webgo_quarterly_subscription';
-  static const String semiAnnualProductId = 'webgo_semiannual_subscription';
-  static const String yearlyProductId = 'webgo_yearly_subscription';
+  static const String monthlyProductId = 'webgo_monthly_sub';
+  static const String quarterlyProductId = 'webgo_quarterly_sub';
+  static const String semiAnnualProductId = 'webgo_semiannual_sub';
+  static const String yearlyProductId = 'webgo_yearly_sub';
 
   // Pro Product IDs (up to 5 devices)
-  static const String proMonthlyProductId = 'webgo_pro_monthly_subscription';
-  static const String proYearlyProductId = 'webgo_pro_yearly_subscription';
+  static const String proMonthlyProductId = 'webgo_pro_monthly_sub';
+  static const String proYearlyProductId = 'webgo_pro_yearly_sub';
 
   static final Set<String> _productIds = {
     monthlyProductId,
